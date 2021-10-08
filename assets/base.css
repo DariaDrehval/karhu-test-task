@@ -172,7 +172,6 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -204,11 +203,6 @@ html.no-js .no-js-hidden {
   .page-width--narrow {
     max-width: 72.6rem;
     padding: 0;
-  }
-
-  .page-width-desktop {
-    max-width: var(--page-width);
-    padding: 0 5rem;
   }
 }
 

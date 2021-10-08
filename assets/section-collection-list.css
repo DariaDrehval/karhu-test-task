@@ -48,7 +48,10 @@
 
 @media screen and (min-width: 750px) {
   .collection-list-wrapper.no-heading {
-    margin-top: calc(6rem + var(--page-width-margin));
+    margin-top: calc(4rem + var(--page-width-margin));
+  }
+  .collection-list-wrapper {
+    margin-left: 7rem;
   }
 }
 
@@ -124,6 +127,7 @@
   }
   .collection-list__item.slider__slide {
     width: 30%;
+    padding: 3rem;
   }
   
 }
@@ -155,14 +159,16 @@
   font-family: "GT_America_Compressed_Bold";
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .header__card.position--flex-start {
   transform: translateY(-50%);
 }
 .header__card.position--center {
   justify-content: center;
-  margin-top: 50%;
-  transform: translateY(-50%);
 }
 .header__card.position--flex-end {
   justify-content: flex-end;
